@@ -1,16 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
-    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/xampp/htdocs/hall/application/views/includes/admin.php</file>
-            <file>file:/C:/xampp/htdocs/hall/application/controllers/studenthome.php</file>
-            <file>file:/C:/xampp/htdocs/hall/application/views/profile_page.php</file>
-            <file>file:/C:/xampp/htdocs/hall/application/controllers/login.php</file>
-            <file>file:/C:/xampp/htdocs/hall/application/views/includes/header.php</file>
-            <file>file:/C:/xampp/htdocs/hall/application/models/profile_model.php</file>
-            <file>file:/C:/xampp/htdocs/hall/application/controllers/profile.php</file>
-            <file>file:/C:/xampp/htdocs/hall/application/controllers/adminhome.php</file>
-        </group>
-    </open-files>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
 </project-private>

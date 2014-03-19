@@ -26,6 +26,62 @@ $config = array(
                      'label'   => 'Email',
                      'rules'   => 'required|valid_email'
                   )
+            ),
+            'createterm'=>array(
+                 array(
+                     'field'   => 'start_date',
+                     'label'   => 'start_date',
+                     'rules'   => 'required'
+                  ),
+               array(
+                     'field'   => 'end_date',
+                     'label'   => 'end_date',
+                     'rules'   => 'required'
+                  )
+            ),
+            'createmonth'=>array(
+                array(
+                     'field'   => 'start_date',
+                     'label'   => 'start_date',
+                     'rules'   => 'required'
+                  ),
+               array(
+                     'field'   => 'end_date',
+                     'label'   => 'end_date',
+                     'rules'   => 'required'
+                  ),
+                array(
+                     'field'   => 'deadline',
+                     'label'   => 'deadline',
+                     'rules'   => 'required'
+                  ),
+               array(
+                     'field'   => 'charge',
+                     'label'   => 'charge',
+                     'rules'   => 'required'
+                  )
+            ),
+            'newpayment'=>array(
+                array(
+                     'field'   => 'studentid',
+                     'label'   => 'STUDENTID',
+                     'rules'   => 'required'
+                  ),
+               array(
+                     'field'   => 'scroll',
+                     'label'   => 'SCROLL',
+                     'rules'   => 'required'
+                  ),
+                array(
+                     'field'   => 'amount',
+                     'label'   => 'AMOUNT',
+                     'rules'   => 'required'
+                  ),
+               array(
+                     'field'   => 'paydate',
+                     'label'   => 'PAYDATE',
+                     'rules'   => 'required'
+                  )
             )
     )
 ?>
