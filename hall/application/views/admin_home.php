@@ -6,4 +6,3 @@
  */
 echo "</br></br></br>";
 echo "this is admin";
-?>

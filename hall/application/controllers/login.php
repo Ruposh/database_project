@@ -49,11 +49,49 @@ class Login extends CI_Controller
                  $this->session->set_userdata($data);
                  redirect('adminhome');
              }
-             else
+             
+             // for student login **********************************************************
+             elseif ($data['loggedas']=='Student')
+             {
+                
+                 $this->load->model('membership');
+                 $query=$this->membership->validity();
+                 
+                 if($query){
+                     $this->session->set_userdata($data);
+                     redirect('studenthome');
+                 }
+                 else
              {
                  $this->index();
              }
-        
+            
+             }
+             
+      // for manager login
+             
+             elseif ($data['loggedas']=='Manager')
+             {
+                
+                 $this->load->model('manager_validity');
+                 $query=$this->manager_validity->validity();
+                 
+                 if($query){
+                     $this->session->set_userdata($data);
+                     redirect('managerhome');
+                 }
+                 else
+             {
+                 $this->index();
+             }
+            
+             }
+
+            else
+             {
+                 $this->index();
+             }
+             
     }
     function signup()
     {

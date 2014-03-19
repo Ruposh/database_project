@@ -43,8 +43,4 @@ class Adminhome extends CI_Controller
         }
         
     }
-    
-    
-   
 }
-?>

@@ -6,21 +6,10 @@
     <legend> login info</legend>
         
 <?php
-$a=array(
-    'name'=>'studentid',
-    'value'=>'',
-    'style' => 'margin:10px',
-    
-);
-echo "STUDENTID :".form_input($a);
+
+echo "STUDENTID :".form_input('studentid','');
 echo "</br>";
-$a=array(
-    'name'=>'password',
-    'value'=>'',
-    'style' => 'margin:10px',
-    
-);
-echo "PASWSWORD:".form_password($a);
+echo "PASWSWORD:".form_password('password','');
 
 //echo form_submit('submit','create account');
 
@@ -37,29 +26,12 @@ echo "PASWSWORD:".form_password($a);
     <legend> student info</legend>
         
 <?php
-$a=array(
-    'name'=>'messno',
-    'value'=>'',
-    'style' => 'margin:10px',
-    
-);
-echo "MESS_NO :".form_input($a);
+
+echo "MESS_NO :".form_input('messno','');
 echo "</br>";
-$a=array(
-    'name'=>'roomno',
-    'value'=>'',
-    'style' => 'margin:10px',
-    
-);
-echo "ROOM_NO :".form_input($a);
+echo "ROOM_NO :".form_input('roomno','');
 echo "</br>";
-$a=array(
-    'name'=>'email',
-    'value'=>'',
-    'style' => 'margin:10px',
-    
-);
-echo "EMAIL :".form_input($a);
+echo "EMAIL :".form_input('email','');
 
 //echo form_submit('submit','create account');
 
